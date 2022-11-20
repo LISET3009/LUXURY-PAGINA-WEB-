@@ -1,0 +1,15 @@
+ 
+ 
+ <section class="   py-4 text-sm-center text-md-center text-lg-center text-xl-center "   >
+
+    <div class="container-fluid">
+
+<img src="images/LOGO.jpeg" alt="icono" width="181" class="img-fluid mx-auto py-5">
+
+</div>
+
+<h1 class="display-5">Quienes somos </h1>
+<p class"py-3">Loren ipsum, 
+
+
+    </section> 
