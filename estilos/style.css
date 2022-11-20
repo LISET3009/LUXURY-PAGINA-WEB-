@@ -20,11 +20,6 @@ body{
     padding: 20px;
 }
 
-nav ul{ 
-    padding-top: 90px;
-    display: inline-flex;
-}
-
 nav lu li{ 
     text-decoration: none;
     color: black;
