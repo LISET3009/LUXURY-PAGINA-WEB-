@@ -2,19 +2,34 @@ body
 {
     max-width: 1300px;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow-x: hidden; 
  }
 
- .contenedor {
-    width: 100px;
-    margin: 0 auoto;
-    overflow:hidden;
-}
- 
  nav{ 
     width: 900%;
     height: 120%;
 } 
+
+.menu-navegacion{ 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+} 
+
+.hero h1{ 
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero p{ 
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}  
+
 
  nav ul li { 
     list-style-type: none;
@@ -37,12 +52,12 @@ footer{
     bottom: 5px;
     left: 0;
     padding: 2rem 8%;
-    background-color: #c692eb;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 body{
 
     height: 50vh;
@@ -173,3 +188,14 @@ li a:hover{
     color: black;
 }
 
+@media screen and (max-width:800px){
+   .menu-navegacion{
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+ }
+ .hero h1{ 
+    font-size: 36px;
+    margin-bottom: 50px;
+} 
+}
